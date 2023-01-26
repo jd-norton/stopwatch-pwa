@@ -3,14 +3,18 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="manifest" href="manifest.json">
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
-        <meta name="viewport" content="user-scalable=no"/>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=no"/>
         <title>Stopwatch</title>
     </head>
 
     <body>
         <div id="box">
             <div id="content">
-                <div id="display">00:00</div>
+                <div id="display">
+                    <div id="seconds">00</div>
+                    <div id="period">.</div>
+                    <div id="tens">00</div>
+                </div>
                 <div id="controls">
                     <button id="start">START</button>
                     <button id="stop">STOP</button>

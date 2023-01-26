@@ -3,7 +3,7 @@ body {
 }
 
 body, button {
-	font: 9rem comic sans ms;
+	font: 8rem comic sans ms;
 }
 
 #box {
@@ -19,6 +19,7 @@ body, button {
 }
 
 #content {
+	width: 30rem;
 	margin: 0;
 	position: absolute;
 	top: 50%;
@@ -28,8 +29,23 @@ body, button {
 }
 
 #display {
-	text-align: center;
+	display: flex;
 	margin-bottom: 5rem;
+}
+
+#seconds {
+	width: 47%;
+	text-align: end;
+}
+
+#period {
+	width: 6%;
+	text-align: center;
+}
+
+#tens {
+	width: 47%;
+	text-align: start;
 }
 
 #controls {
@@ -46,21 +62,4 @@ body, button {
 	color: white;
 	border-radius: 100rem;
 	border: none;
-}
-
-#text {
-	/*TODO: decide on text readability either color or text border*/
-	/* filter: invert(1); */
-	text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-	font: 5em Arial;
-	font-weight: bold;
-	-webkit-user-select: none; /* Safari */
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none; /* IE10+/Edge */
-	user-select: none; /* Standard */
 }
