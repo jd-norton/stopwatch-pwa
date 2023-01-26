@@ -1,9 +1,15 @@
+@font-face {
+	font-family: 'Comic Sans MS';
+	src: url("comic-sans-ms/comici.ttf");
+}
+
 body {
 	overscroll-behavior: contain;
 }
 
 body, button {
-	font: 8rem comic sans ms;
+	font-size: 8rem;
+	font-family: 'Comic Sans MS';
 }
 
 #box {
