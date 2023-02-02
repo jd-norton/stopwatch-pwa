@@ -1,10 +1,10 @@
 
-// if (navigator.serviceWorker) {
-//     navigator.serviceWorker.register (
-//         '/color-progressive/sw.js',
-//         {scope: '/color-progressive/'}
-//     )
-// }
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.register (
+        '/stopwatch-pwa/sw.js',
+        {scope: '/stopwatch-pwa/'}
+    )
+}
 
 const box = document.getElementById("box");
 const secondsDisplay = document.getElementById("seconds");
