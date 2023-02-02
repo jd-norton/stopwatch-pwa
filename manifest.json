@@ -2,11 +2,11 @@
     "theme_color": "#000000",
     "background_color": "#FFFFFF",
     "display": "standalone",
-    "scope": "/color-progressive/",
-    "start_url": "/color-progressive/",
-    "name": "Color Explore",
-    "short_name": "Color Explore",
-    "description": "App to explore the color spectrum",
+    "scope": "/stopwatch-pwa/",
+    "start_url": "/stopwatch-pwa/",
+    "name": "Stopwatch PWA",
+    "short_name": "Stopwatch",
+    "description": "Stopwatch app",
     "icons": [
         {
             "src": "icons/icon-192x192.png",

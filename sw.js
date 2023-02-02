@@ -1,5 +1,5 @@
-var GHPATH = '/color-progressive';
-var APP_PREFIX = 'color';
+var GHPATH = '/stopwatch-pwa';
+var APP_PREFIX = 'stopwatch';
 var VERSION = 'version_00';
 var URLS = [
   `${GHPATH}/`,

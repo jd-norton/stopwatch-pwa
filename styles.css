@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Comic Sans MS';
-	src: url("comic-sans-ms/comici.ttf");
+	src: url("fonts/COMIC.TTF");
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 body, button {
 	font-size: 8rem;
-	font-family: 'Comic Sans MS';
+	font-family: 'Comic Sans MS', Arial;
 }
 
 #box {
